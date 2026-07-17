@@ -1,17 +1,16 @@
 :root {
-  --main-font-family: Ubunto,"Playfair Display", serif, "Poppins", sans-serif;
+  --main-font-family: Ubunto, "Playfair Display", serif, "Poppins", sans-serif;
   --main-color: #6b63ff;
-  --second-color:#FFFFFF;
+  --second-color: #ffffff;
 }
 
 .content-container {
   text-align: center;
-  font-family:var(--main-font-family);
+  font-family: var(--main-font-family);
 
   background-color: var(--second-color);
-
 }
-.about.content-container{
+.about.content-container {
   margin: 90px auto;
 }
 h1 {
@@ -51,4 +50,10 @@ p {
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   font-style: normal;
+}
+
+@media (max-width: 600px) {
+  .content {
+    
+  }
 }
