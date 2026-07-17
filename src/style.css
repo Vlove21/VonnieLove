@@ -1,11 +1,19 @@
 :root {
   --main-font-family: "Playfair Display", serif, "Poppins", sans-serif;
   --main-color: #6b63ff;
+  --second-color:#FFFFFF;
 }
 
 .container {
   text-align: center;
-  font-family: var(--main-font-family);
+  font-family: .ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+};
+  margin: 90px auto;
+  background-color: var(--second-color);
+
 }
 h1 {
   font-size: 64px;
@@ -14,6 +22,7 @@ h1 {
 }
 h3 {
   font-weight: 700;
+  font-size: 20px;
 }
 p {
   font-family: "Poppins", sans-serif;
@@ -25,4 +34,21 @@ p {
 }
 .projects {
   font-size: 18px;
+  text-align: left;
+  font-weight: 600;
+  color: var(--second-color);
+}
+
+img {
+  width: 90%;
+}
+
+.info-sect {
+  text-align: left;
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
