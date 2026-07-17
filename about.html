@@ -4,21 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="Vonnie Love" content="Webpage about me and my projects" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="src/style.css" />
 
     <title>About Page</title>
   </head>
   <body>
-    <h1>Hey, I am Vonnie Love</h1>
-    <h3>Frontend Developer, based in Maryland</h3>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h1>Hey, I am Vonnie Love</h1>
+          <h3>Frontend Developer, based in Maryland</h3>
 
-    <p>
-      For anyone who wants to start learning code, this workshop is very
-      interesting. You will be challenged with different exercises, and
-      everything is well explained, homework and deadlines are good for keep
-      focus
-    </p>
-    <a href="projects.html">Check out my Projects</a>
-    <img src="vonnie.img" alt="Picture of Vonnie Love" />
+          <p class="m-3">
+            For anyone who wants to start learning code, this workshop is very
+            interesting. You will be challenged with different exercises, and
+            everything is well explained, homework and deadlines are good for
+            keep focus
+          </p>
+          <a href="projects.html" class="btn btn-success p-3 m-4 main-color projects"
+            >Check out my Projects</a
+          >
+        </div>
+        <div class="col-md-6">
+          <img
+            src="images/vonnie.jpg"
+            class="img-fluid img-thumbnail rounded"
+            alt="Picture of Vonnie Love"
+          />
+        </div>
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+          crossorigin="anonymous"
+        ></script>
+      </div>
+    </div>
   </body>
 </html>

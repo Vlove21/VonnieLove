@@ -1,0 +1,28 @@
+:root {
+  --main-font-family: "Playfair Display", serif, "Poppins", sans-serif;
+  --main-color: #6b63ff;
+}
+
+.container {
+  text-align: center;
+  font-family: var(--main-font-family);
+}
+h1 {
+  font-size: 64px;
+  line-height: 80px;
+  font-weight: 700;
+}
+h3 {
+  font-weight: 700;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.main-color {
+  background-color: var(--main-color);
+}
+.projects {
+  font-size: 18px;
+}
