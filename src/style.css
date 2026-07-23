@@ -1,13 +1,29 @@
 :root {
   --main-font-family: Ubunto, "Playfair Display", serif, "Poppins", sans-serif;
   --main-color: #6b63ff;
-  --second-color: #ffffff;
+  --second-color: #f0eadd;
+}
+nav img {
+  max-width: 150px;
+}
+nav a {
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex inline;
+  list-style: none;
+  justify-content: right;
+  position: sticky;
+}
+nav li {
+  padding: 10px;
+  display: flex;
 }
 
 .content-container {
   text-align: center;
   font-family: var(--main-font-family);
-
   background-color: var(--second-color);
 }
 .about.content-container {
